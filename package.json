@@ -1,0 +1,26 @@
+{
+  "name": "@rojo2/interpolation",
+  "version": "1.0.0",
+  "description": "Utility functions to use `linear`, `quadratic` and `cubic` interpolation.",
+  "main": "dist/interpolation.js",
+  "module": "dist/interpolation.esm.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "mocha --require @babel/register --require chai/register-expect --recursive src/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-rojo2.com:rojo2/interpolation.git"
+  },
+  "keywords": ["interpolation"],
+  "author": "rojo2 <hola@rojo2.com> (https://rojo2.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "rollup": "^2.32.0"
+  }
+}
